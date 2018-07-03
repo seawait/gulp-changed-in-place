@@ -1,13 +1,13 @@
 {
-  "name": "gulp-changed-in-place",
-  "version": "2.3.0",
+  "name": "gulp-cache-changed",
+  "version": "1.0.0",
   "description": "Only pass through changed files",
   "license": "MIT",
-  "repository": "alexgorbatchev/gulp-changed-in-place",
+  "repository": "https://github.com/seawait/gulp-changed-in-place",
   "author": {
-    "name": "Alex Gorbatchev",
-    "email": "alex.gorbatchev@gmail.com",
-    "url": "https://github.com/alexgorbatchev"
+    "name": "seawait",
+    "email": "519790086@qq.com",
+    "url": "https://github.com/seawait"
   },
   "engines": {
     "node": ">=0.10.0"

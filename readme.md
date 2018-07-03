@@ -1,9 +1,7 @@
-# gulp-changed-in-place
+# gulp-cache-changed
 
-[![Dependency status](https://img.shields.io/david/alexgorbatchev/gulp-changed-in-place.svg?style=flat)](https://david-dm.org/alexgorbatchev/gulp-changed-in-place)
-[![devDependency Status](https://img.shields.io/david/dev/alexgorbatchev/gulp-changed-in-place.svg?style=flat)](https://david-dm.org/alexgorbatchev/gulp-changed-in-place#info=devDependencies)
-[![Build Status](https://img.shields.io/travis/alexgorbatchev/gulp-changed-in-place.svg?style=flat&branch=master)](https://travis-ci.org/alexgorbatchev/gulp-changed-in-place)
-
+> **The project inherits from [gulp-changed-in-place](https://github.com/alexgorbatchev/gulp-changed-in-place)**
+> The difference is that if one of the files changes, all files are passed.
 > Only pass through changed files
 
 No more wasting precious time on processing unchanged files.
@@ -15,14 +13,14 @@ How is this different from [gulp-changed](https://github.com/sindresorhus/gulp-c
 ## Install
 
 ```
-$ npm install --save-dev gulp-changed-in-place
+$ npm install --save-dev gulp-cache-changed
 ```
 
 ## Usage
 
 ```js
 var gulp = require('gulp');
-var changedInPlace = require('gulp-changed-in-place');
+var changedInPlace = require('gulp-cache-changed');
 var tsfmt = require('gulp-tsfmt');
 
 gulp.task('default', function () {
@@ -41,7 +39,7 @@ gulp.task('default', function () {
 * `boolean`
 * Default = `false`
 
-  Makes `gulp-changed-in-place` pass through all files once on the first run.
+  Makes `gulp-cache-changed` pass through all files once on the first run.
 
 #### `cache`
 * `Object`
@@ -76,7 +74,7 @@ gulp.task('default', function () {
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Alex Gorbatchev
+Copyright (c) 2015 SeaWait
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
